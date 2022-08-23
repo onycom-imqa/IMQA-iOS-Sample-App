@@ -3,9 +3,7 @@
 
 ## Introduction
 IMQA를 사용하기 앞서 iOS SDK 연동된 샘플 앱으로 연동 샘플 코드 구성을 확인하고, 동작시켜 볼 수 있습니다
-
 IMQA에 대해 궁금하시다면 저희 [랜딩페이지](https://imqa.io)에서 다양한 내용을 확인 해보세요. 
- 
 모바일 앱 성능에 관한 좋은 컨텐츠도 있으니 저희 [블로그](https://blog.imqa.io)를 통해 다양한 컨텐츠를 읽어보세요. 
 - 추천 컨텐츠 : [모바일 앱 성능 저하, 크래시 솔루션으로 해결될까요?](https://blog.imqa.io/decreased-app-performance-resolution/)
 
