@@ -66,7 +66,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 4. 프로젝트를 빌드하고 실행하면 아래와 같은 화면과 Debug 메시지가 뜨면 성공입니다. 
 
-[<img src="" width="250"/>](image.png)
+[<img src="https://raw.githubusercontent.com/onycom-imqa/IMQA_IOS_SAMPLE/53e6dc8017f1a47ea654eefd1fcd9a67db7b4547/images/ios-1.png" width="250"/>](image.png)
 
 ```
 [IMQA LOG] IMQA MPM Initalize Status : OK
@@ -87,7 +87,7 @@ IMQA는 성능 데이터를 수집후 수집 주기에 따라 데이터를 전�
 
 프로젝트 키 또는 수집서버를 설정하실 수 있습니다. 
 
-[<img src="https://raw.githubusercontent.com/onycom-imqa/IMQA_IOS_SAMPLE/53e6dc8017f1a47ea654eefd1fcd9a67db7b4547/images/ios-1.png" width="250"/>](image.png)
+[<img src="https://raw.githubusercontent.com/onycom-imqa/IMQA_IOS_SAMPLE/53e6dc8017f1a47ea654eefd1fcd9a67db7b4547/images/ios-2.png" width="250"/>](image.png)
 
 
 ### Uncaught Objective-C Exception 
