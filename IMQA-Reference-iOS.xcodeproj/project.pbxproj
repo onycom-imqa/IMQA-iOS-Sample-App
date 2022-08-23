@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D167DC6A6C9912EDCE56AA2 /* Pods_IMQA_Reference_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3449862D4871E2CF478AE86E /* Pods_IMQA_Reference_iOSTests.framework */; };
+		343A5C82286C3F8F00802E11 /* CommonConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343A5C81286C3F8F00802E11 /* CommonConfigViewController.swift */; };
+		3452BC72283E09290061A01C /* URLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452BC71283E09290061A01C /* URLSessionViewController.swift */; };
+		3452BC75283E0B340061A01C /* IQURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452BC74283E0B340061A01C /* IQURLSessionViewController.m */; };
+		345DA2C52803143100BA8214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2C42803143100BA8214 /* AppDelegate.swift */; };
+		345DA2C72803143100BA8214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2C62803143100BA8214 /* SceneDelegate.swift */; };
+		345DA2C92803143100BA8214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2C82803143100BA8214 /* ViewController.swift */; };
+		345DA2CC2803143100BA8214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345DA2CA2803143100BA8214 /* Main.storyboard */; };
+		345DA2CE2803143200BA8214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345DA2CD2803143200BA8214 /* Assets.xcassets */; };
+		345DA2D12803143200BA8214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345DA2CF2803143200BA8214 /* LaunchScreen.storyboard */; };
+		345DA2DC2803143300BA8214 /* IMQA_Reference_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2DB2803143300BA8214 /* IMQA_Reference_iOSTests.swift */; };
+		345DA2E62803143300BA8214 /* IMQA_Reference_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2E52803143300BA8214 /* IMQA_Reference_iOSUITests.swift */; };
+		345DA2E82803143300BA8214 /* IMQA_Reference_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2E72803143300BA8214 /* IMQA_Reference_iOSUITestsLaunchTests.swift */; };
+		345DA2F52807046800BA8214 /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2F42807046700BA8214 /* ReferenceViewController.swift */; };
+		345DA2F728070BA400BA8214 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2F628070BA400BA8214 /* NavigationViewController.swift */; };
+		345DA2F928070DE000BA8214 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2F828070DE000BA8214 /* WebViewController.swift */; };
+		345DA2FB2807126A00BA8214 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2FA2807126A00BA8214 /* PageOneViewController.swift */; };
+		345DA2FD2807129300BA8214 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345DA2FC2807129300BA8214 /* PageTwoViewController.swift */; };
+		34AEFA9C281715D10098AF6D /* Pods_IMQA_Reference_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3343FA105C61AA090C7F3BAB /* Pods_IMQA_Reference_iOS.framework */; };
+		34F4388728071580003B6A38 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4388628071580003B6A38 /* TableViewController.swift */; };
+		34F438892807164A003B6A38 /* ExcepitonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F438882807164A003B6A38 /* ExcepitonViewController.swift */; };
+		34F4388B28071657003B6A38 /* CustomErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4388A28071657003B6A38 /* CustomErrorViewController.swift */; };
+		83D0664E7B423A09BC672FCA /* Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F0F1A9FCB562AA0A958922 /* Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345DA2D82803143300BA8214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345DA2B92803143100BA8214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345DA2C02803143100BA8214;
+			remoteInfo = "IMQA-Reference-iOS";
+		};
+		345DA2E22803143300BA8214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345DA2B92803143100BA8214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345DA2C02803143100BA8214;
+			remoteInfo = "IMQA-Reference-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E52C5BFC204F4DF5FD0080 /* Pods-IMQA-Reference-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOSTests/Pods-IMQA-Reference-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		27C36F3EE65F37C2CD938EE9 /* Pods-IMQA-Reference-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOS.release.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOS/Pods-IMQA-Reference-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3343FA105C61AA090C7F3BAB /* Pods_IMQA_Reference_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMQA_Reference_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343A5C81286C3F8F00802E11 /* CommonConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConfigViewController.swift; sourceTree = "<group>"; };
+		3449862D4871E2CF478AE86E /* Pods_IMQA_Reference_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMQA_Reference_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3452BC71283E09290061A01C /* URLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
+		3452BC73283E0B340061A01C /* IQURLSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQURLSessionViewController.h; sourceTree = "<group>"; };
+		3452BC74283E0B340061A01C /* IQURLSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQURLSessionViewController.m; sourceTree = "<group>"; };
+		345DA2C12803143100BA8214 /* IMQA-Reference-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMQA-Reference-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345DA2C42803143100BA8214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		345DA2C62803143100BA8214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		345DA2C82803143100BA8214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		345DA2CB2803143100BA8214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		345DA2CD2803143200BA8214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345DA2D02803143200BA8214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345DA2D22803143200BA8214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345DA2D72803143300BA8214 /* IMQA-Reference-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMQA-Reference-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345DA2DB2803143300BA8214 /* IMQA_Reference_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMQA_Reference_iOSTests.swift; sourceTree = "<group>"; };
+		345DA2E12803143300BA8214 /* IMQA-Reference-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IMQA-Reference-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345DA2E52803143300BA8214 /* IMQA_Reference_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMQA_Reference_iOSUITests.swift; sourceTree = "<group>"; };
+		345DA2E72803143300BA8214 /* IMQA_Reference_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMQA_Reference_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		345DA2F42807046700BA8214 /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
+		345DA2F628070BA400BA8214 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		345DA2F828070DE000BA8214 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		345DA2FA2807126A00BA8214 /* PageOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
+		345DA2FC2807129300BA8214 /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
+		34B5728A28B4D8C400D6278A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34F4388628071580003B6A38 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		34F438882807164A003B6A38 /* ExcepitonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcepitonViewController.swift; sourceTree = "<group>"; };
+		34F4388A28071657003B6A38 /* CustomErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorViewController.swift; sourceTree = "<group>"; };
+		34F438912807197B003B6A38 /* IMQACrashAgent.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IMQACrashAgent.xcframework; sourceTree = "<group>"; };
+		34F43895280719A5003B6A38 /* IMQA-Reference-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMQA-Reference-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		34F4389B28071AFF003B6A38 /* IMQAMPMAgent.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IMQAMPMAgent.xcframework; sourceTree = "<group>"; };
+		7607E0E5EEF8C1EE2E1F7AF3 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81F0F1A9FCB562AA0A958922 /* Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4274BDDA698575AEEF4EC4B /* Pods-IMQA-Reference-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOSTests/Pods-IMQA-Reference-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F63F40E2EE4603A85354C5 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D846A5AF0FCED93EC79E97FE /* Pods-IMQA-Reference-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMQA-Reference-iOS.debug.xcconfig"; path = "Target Support Files/Pods-IMQA-Reference-iOS/Pods-IMQA-Reference-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345DA2BE2803143100BA8214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AEFA9C281715D10098AF6D /* Pods_IMQA_Reference_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2D42803143300BA8214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D167DC6A6C9912EDCE56AA2 /* Pods_IMQA_Reference_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2DE2803143300BA8214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0664E7B423A09BC672FCA /* Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345DA2B82803143100BA8214 = {
+			isa = PBXGroup;
+			children = (
+				34B5728A28B4D8C400D6278A /* README.md */,
+				345DA2C32803143100BA8214 /* IMQA-Reference-iOS */,
+				345DA2DA2803143300BA8214 /* IMQA-Reference-iOSTests */,
+				345DA2E42803143300BA8214 /* IMQA-Reference-iOSUITests */,
+				345DA2C22803143100BA8214 /* Products */,
+				34F4388C28071961003B6A38 /* Frameworks */,
+				5C1ECB77183E20C0E13D5772 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		345DA2C22803143100BA8214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345DA2C12803143100BA8214 /* IMQA-Reference-iOS.app */,
+				345DA2D72803143300BA8214 /* IMQA-Reference-iOSTests.xctest */,
+				345DA2E12803143300BA8214 /* IMQA-Reference-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345DA2C32803143100BA8214 /* IMQA-Reference-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				345DA2C42803143100BA8214 /* AppDelegate.swift */,
+				345DA2C62803143100BA8214 /* SceneDelegate.swift */,
+				345DA2C82803143100BA8214 /* ViewController.swift */,
+				345DA2CA2803143100BA8214 /* Main.storyboard */,
+				345DA2CD2803143200BA8214 /* Assets.xcassets */,
+				345DA2CF2803143200BA8214 /* LaunchScreen.storyboard */,
+				345DA2D22803143200BA8214 /* Info.plist */,
+				345DA2F42807046700BA8214 /* ReferenceViewController.swift */,
+				345DA2F628070BA400BA8214 /* NavigationViewController.swift */,
+				345DA2F828070DE000BA8214 /* WebViewController.swift */,
+				345DA2FA2807126A00BA8214 /* PageOneViewController.swift */,
+				345DA2FC2807129300BA8214 /* PageTwoViewController.swift */,
+				34F4388628071580003B6A38 /* TableViewController.swift */,
+				34F438882807164A003B6A38 /* ExcepitonViewController.swift */,
+				34F4388A28071657003B6A38 /* CustomErrorViewController.swift */,
+				34F43895280719A5003B6A38 /* IMQA-Reference-iOS-Bridging-Header.h */,
+				3452BC71283E09290061A01C /* URLSessionViewController.swift */,
+				3452BC73283E0B340061A01C /* IQURLSessionViewController.h */,
+				3452BC74283E0B340061A01C /* IQURLSessionViewController.m */,
+				343A5C81286C3F8F00802E11 /* CommonConfigViewController.swift */,
+			);
+			path = "IMQA-Reference-iOS";
+			sourceTree = "<group>";
+		};
+		345DA2DA2803143300BA8214 /* IMQA-Reference-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				345DA2DB2803143300BA8214 /* IMQA_Reference_iOSTests.swift */,
+			);
+			path = "IMQA-Reference-iOSTests";
+			sourceTree = "<group>";
+		};
+		345DA2E42803143300BA8214 /* IMQA-Reference-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345DA2E52803143300BA8214 /* IMQA_Reference_iOSUITests.swift */,
+				345DA2E72803143300BA8214 /* IMQA_Reference_iOSUITestsLaunchTests.swift */,
+			);
+			path = "IMQA-Reference-iOSUITests";
+			sourceTree = "<group>";
+		};
+		34F4388C28071961003B6A38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F4389B28071AFF003B6A38 /* IMQAMPMAgent.xcframework */,
+				34F438912807197B003B6A38 /* IMQACrashAgent.xcframework */,
+				3343FA105C61AA090C7F3BAB /* Pods_IMQA_Reference_iOS.framework */,
+				81F0F1A9FCB562AA0A958922 /* Pods_IMQA_Reference_iOS_IMQA_Reference_iOSUITests.framework */,
+				3449862D4871E2CF478AE86E /* Pods_IMQA_Reference_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C1ECB77183E20C0E13D5772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D846A5AF0FCED93EC79E97FE /* Pods-IMQA-Reference-iOS.debug.xcconfig */,
+				27C36F3EE65F37C2CD938EE9 /* Pods-IMQA-Reference-iOS.release.xcconfig */,
+				7607E0E5EEF8C1EE2E1F7AF3 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.debug.xcconfig */,
+				D1F63F40E2EE4603A85354C5 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.release.xcconfig */,
+				B4274BDDA698575AEEF4EC4B /* Pods-IMQA-Reference-iOSTests.debug.xcconfig */,
+				10E52C5BFC204F4DF5FD0080 /* Pods-IMQA-Reference-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345DA2C02803143100BA8214 /* IMQA-Reference-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345DA2EB2803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOS" */;
+			buildPhases = (
+				ADF66DE3B0EE115FA648CDD5 /* [CP] Check Pods Manifest.lock */,
+				345DA2BD2803143100BA8214 /* Sources */,
+				345DA2BE2803143100BA8214 /* Frameworks */,
+				345DA2BF2803143100BA8214 /* Resources */,
+				562BC39FCE4D2CCBCB683295 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IMQA-Reference-iOS";
+			productName = "IMQA-Reference-iOS";
+			productReference = 345DA2C12803143100BA8214 /* IMQA-Reference-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345DA2D62803143300BA8214 /* IMQA-Reference-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345DA2EE2803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOSTests" */;
+			buildPhases = (
+				82215443677E66B4260ADE3B /* [CP] Check Pods Manifest.lock */,
+				345DA2D32803143300BA8214 /* Sources */,
+				345DA2D42803143300BA8214 /* Frameworks */,
+				345DA2D52803143300BA8214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345DA2D92803143300BA8214 /* PBXTargetDependency */,
+			);
+			name = "IMQA-Reference-iOSTests";
+			productName = "IMQA-Reference-iOSTests";
+			productReference = 345DA2D72803143300BA8214 /* IMQA-Reference-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345DA2E02803143300BA8214 /* IMQA-Reference-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345DA2F12803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOSUITests" */;
+			buildPhases = (
+				EC1FEFA68BF66456F21152AD /* [CP] Check Pods Manifest.lock */,
+				345DA2DD2803143300BA8214 /* Sources */,
+				345DA2DE2803143300BA8214 /* Frameworks */,
+				345DA2DF2803143300BA8214 /* Resources */,
+				BC816E5FD7D0AC668A48C883 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345DA2E32803143300BA8214 /* PBXTargetDependency */,
+			);
+			name = "IMQA-Reference-iOSUITests";
+			productName = "IMQA-Reference-iOSUITests";
+			productReference = 345DA2E12803143300BA8214 /* IMQA-Reference-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345DA2B92803143100BA8214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					345DA2C02803143100BA8214 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+					345DA2D62803143300BA8214 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 345DA2C02803143100BA8214;
+					};
+					345DA2E02803143300BA8214 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 345DA2C02803143100BA8214;
+					};
+				};
+			};
+			buildConfigurationList = 345DA2BC2803143100BA8214 /* Build configuration list for PBXProject "IMQA-Reference-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345DA2B82803143100BA8214;
+			productRefGroup = 345DA2C22803143100BA8214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345DA2C02803143100BA8214 /* IMQA-Reference-iOS */,
+				345DA2D62803143300BA8214 /* IMQA-Reference-iOSTests */,
+				345DA2E02803143300BA8214 /* IMQA-Reference-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345DA2BF2803143100BA8214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345DA2D12803143200BA8214 /* LaunchScreen.storyboard in Resources */,
+				345DA2CE2803143200BA8214 /* Assets.xcassets in Resources */,
+				345DA2CC2803143100BA8214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2D52803143300BA8214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2DF2803143300BA8214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		562BC39FCE4D2CCBCB683295 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS/Pods-IMQA-Reference-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS/Pods-IMQA-Reference-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS/Pods-IMQA-Reference-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82215443677E66B4260ADE3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMQA-Reference-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF66DE3B0EE115FA648CDD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMQA-Reference-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC816E5FD7D0AC668A48C883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1FEFA68BF66456F21152AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345DA2BD2803143100BA8214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345DA2C92803143100BA8214 /* ViewController.swift in Sources */,
+				345DA2F928070DE000BA8214 /* WebViewController.swift in Sources */,
+				34F438892807164A003B6A38 /* ExcepitonViewController.swift in Sources */,
+				345DA2FB2807126A00BA8214 /* PageOneViewController.swift in Sources */,
+				34F4388728071580003B6A38 /* TableViewController.swift in Sources */,
+				3452BC75283E0B340061A01C /* IQURLSessionViewController.m in Sources */,
+				345DA2C52803143100BA8214 /* AppDelegate.swift in Sources */,
+				343A5C82286C3F8F00802E11 /* CommonConfigViewController.swift in Sources */,
+				345DA2FD2807129300BA8214 /* PageTwoViewController.swift in Sources */,
+				3452BC72283E09290061A01C /* URLSessionViewController.swift in Sources */,
+				345DA2F52807046800BA8214 /* ReferenceViewController.swift in Sources */,
+				345DA2F728070BA400BA8214 /* NavigationViewController.swift in Sources */,
+				34F4388B28071657003B6A38 /* CustomErrorViewController.swift in Sources */,
+				345DA2C72803143100BA8214 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2D32803143300BA8214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345DA2DC2803143300BA8214 /* IMQA_Reference_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345DA2DD2803143300BA8214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345DA2E82803143300BA8214 /* IMQA_Reference_iOSUITestsLaunchTests.swift in Sources */,
+				345DA2E62803143300BA8214 /* IMQA_Reference_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345DA2D92803143300BA8214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345DA2C02803143100BA8214 /* IMQA-Reference-iOS */;
+			targetProxy = 345DA2D82803143300BA8214 /* PBXContainerItemProxy */;
+		};
+		345DA2E32803143300BA8214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345DA2C02803143100BA8214 /* IMQA-Reference-iOS */;
+			targetProxy = 345DA2E22803143300BA8214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345DA2CA2803143100BA8214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345DA2CB2803143100BA8214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		345DA2CF2803143200BA8214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345DA2D02803143200BA8214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345DA2E92803143300BA8214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345DA2EA2803143300BA8214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345DA2EC2803143300BA8214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D846A5AF0FCED93EC79E97FE /* Pods-IMQA-Reference-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 125;
+				DEVELOPMENT_TEAM = J85PKHBA46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IMQA-Reference-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IMQA;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa-app.referapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IMQA-Reference-iOS/IMQA-Reference-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		345DA2ED2803143300BA8214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C36F3EE65F37C2CD938EE9 /* Pods-IMQA-Reference-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 125;
+				DEVELOPMENT_TEAM = J85PKHBA46;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IMQA-Reference-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = IMQA;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa-app.referapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IMQA-Reference-iOS/IMQA-Reference-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		345DA2EF2803143300BA8214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4274BDDA698575AEEF4EC4B /* Pods-IMQA-Reference-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZBH6KE42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa.IMQA-Reference-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMQA-Reference-iOS.app/IMQA-Reference-iOS";
+			};
+			name = Debug;
+		};
+		345DA2F02803143300BA8214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E52C5BFC204F4DF5FD0080 /* Pods-IMQA-Reference-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZBH6KE42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa.IMQA-Reference-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IMQA-Reference-iOS.app/IMQA-Reference-iOS";
+			};
+			name = Release;
+		};
+		345DA2F22803143300BA8214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7607E0E5EEF8C1EE2E1F7AF3 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZBH6KE42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa.IMQA-Reference-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IMQA-Reference-iOS";
+			};
+			name = Debug;
+		};
+		345DA2F32803143300BA8214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F63F40E2EE4603A85354C5 /* Pods-IMQA-Reference-iOS-IMQA-Reference-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VPZBH6KE42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.imqa.IMQA-Reference-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IMQA-Reference-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345DA2BC2803143100BA8214 /* Build configuration list for PBXProject "IMQA-Reference-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345DA2E92803143300BA8214 /* Debug */,
+				345DA2EA2803143300BA8214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345DA2EB2803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345DA2EC2803143300BA8214 /* Debug */,
+				345DA2ED2803143300BA8214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345DA2EE2803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345DA2EF2803143300BA8214 /* Debug */,
+				345DA2F02803143300BA8214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345DA2F12803143300BA8214 /* Build configuration list for PBXNativeTarget "IMQA-Reference-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345DA2F22803143300BA8214 /* Debug */,
+				345DA2F32803143300BA8214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345DA2B92803143100BA8214 /* Project object */;
+}
