@@ -12,16 +12,16 @@ IMQA에 대해 궁금하시다면 저희 [랜딩페이지](https://imqa.io)에�
 ## IMQA 시작하기
 IMQA에 회원가입/로그인을 진행하시기 바랍니다
 
-[IMQA 시작하기](https://imqa-onycom.gitbook.io/imqa-guide/installation/imqa)
+[IMQA 시작하기](https://docs.imqa.io/imqa-guide/installation/imqa)
 
 ### IMQA 프로젝트 생성
 IMQA에 로그인하여 프로젝트를 생성해주세요
 
-[IMQA Lite 프로젝트 시작하기](https://imqa-onycom.gitbook.io/imqa-guide/installation/imqa/project-lite)
+[IMQA Lite 프로젝트 시작하기](https://docs.imqa.io/imqa-guide/installation/imqa/project-lite)
 
 프로젝트를 생성 후 발급받은 `Project Key`를 이용하여 SDK 연동을 진행합니다
 
-[프로젝트 키 확인하기](https://imqa-onycom.gitbook.io/imqa-guide/installation/imqa/project-key#project-key-1)
+[프로젝트 키 확인하기](https://docs.imqa.io/imqa-guide/installation/imqa/project-key#project-key-1)
 
 [<img src="https://842389420-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FzFyCopc6yAp3UcEYW6la%2Fuploads%2FZCGQMpp55OSw14VeJCBG%2FUntitled.png?alt=media&token=c635d854-7d83-48cc-bf87-56d52924ac7a" width="800"/>](image.png)
 
@@ -107,7 +107,7 @@ IMQA는 별도의 화면마다 코드 설정 필요없이 자동으로 화면 �
 ### WKWebview 
 
 IMQA는 Webview 정보도 중요한 데이터라 생각하여 다양한 데이터를 수집합니다. 
-웹뷰 데이터를 수집하는 방법이 알고 싶으시다면 [가이드](https://imqa-onycom.gitbook.io/imqa-guide/installation/ios-sdk/mpm-sdk-setting/mpm-webview-guide)를 확인해주세요.
+웹뷰 데이터를 수집하는 방법이 알고 싶으시다면 [가이드](https://docs.imqa.io/imqa-guide/installation/ios-sdk/mpm-sdk-setting/mpm-webview-guide)를 확인해주세요.
 
 저희의 블로그 컨텐츠 "[웹 페이지 로딩 과정 이해하기](https://blog.imqa.io/webpage_loading_process/)" 컨텐츠도 읽으시면 도움이 됩니다. 
 
@@ -117,7 +117,7 @@ IMQA는 Webview 정보도 중요한 데이터라 생각하여 다양한 데이�
 별도의 설정 없이 네트워크 통신을 수집해보세요.  
 
 ## Release Note
-[릴리즈 노트 페이지](https://imqa-onycom.gitbook.io/imqa-guide/release-note/update)
+[릴리즈 노트 페이지](https://docs.imqa.io/imqa-guide/release-note/update)
 
 
 ## IMQA 포럼
